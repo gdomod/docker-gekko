@@ -23,5 +23,5 @@ RUN npm install --production; \
 
 VOLUME /gekko/history
 
-CMD ["node", "gekko", "--ui", "--config" , "/gekko/userconfig/config.js"]
+CMD ["node", "gekko", "--ui", "--config" , "/gekko/config.js"]
 
