@@ -1,6 +1,6 @@
 FROM node:8.9.3
 
-MAINTAINER Ivan Pushkin <iv.pushk@gmail.com>
+MAINTAINER Gdo Mod <me@gdomod.de>
 
 RUN mkdir -p /gekko && \
     git clone -b stable https://github.com/askmike/gekko.git /gekko
